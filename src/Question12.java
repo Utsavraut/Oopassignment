@@ -8,7 +8,7 @@ public class Question12 {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter a number:");
         int a=scanner.nextInt();
-        int sqr=a*a;
+        int sqr= (int) Math.pow(a,2);
         System.out.println("The square of the number is:"+sqr);
     }
 }
