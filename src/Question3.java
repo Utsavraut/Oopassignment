@@ -8,16 +8,5 @@ public class Question3 {
         vote =(age>18)? "Can vote " : "Cannot vote";
         System.out.println(vote);
     }
-        /*Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter name:");
-        String name = scanner.nextLine();
-        System.out.println("Enter age:");
-        int age = scanner.nextInt();
-        scanner.nextLine();
-        System.out.println("Enter location:");
-        String location = scanner.nextLine();
 
-        System.out.println("My name is: " + name+"\n"+"My age is:"+age+"\n"+"My address is:"+location);
-
-    }*/
 }
