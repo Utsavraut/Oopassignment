@@ -36,7 +36,7 @@ public class Question4 {
             System.out.println("Third class");
         }
         else
-            System.out.println("fail");
+            System.out.println("Fail");
 
     }
       /*  float sub1 = 80;
