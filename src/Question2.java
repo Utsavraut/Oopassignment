@@ -17,8 +17,8 @@ public class Question2 {
         cube=l*l*l;
         cuboid=l*b*h;
         area=0.5*(b*h);
-        System.out.println("The volume of cube is:"+cube);
-        System.out.println("The volume of cuboid is:"+cuboid);
+        System.out.println("The volume of Cube is:"+cube);
+        System.out.println("The volume of Cuboid is:"+cuboid);
         System.out.println("The area of Triangle is:"+area);
 
 
