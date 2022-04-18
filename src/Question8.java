@@ -14,7 +14,7 @@ public class Question8 {
         int product=num1*num2;
         System.out.println("The product is:"+product);
 
-         double division=(product/sum);
+         float division=(sum/product);
          System.out.println("The division of sum and product is:"+division);
 
     }
