@@ -7,7 +7,7 @@ public class Question1 {
         System.out.println("Enter Age:");
         int age= myObj.nextInt();
         if (age>18){
-            System.out.println("eligible to vote");
+            System.out.println("Eligible to vote");
         }
         else{
             System.out.println("Not eligible");
