@@ -8,13 +8,17 @@ public class Question14 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter first number");
-        boolean a=scanner.nextBoolean();
+        int a=scanner.nextInt();
         System.out.println("Enter second number");
-        boolean b=scanner.nextBoolean();
+        int b=scanner.nextInt();
         System.out.println("Enter third number");
-        boolean c=scanner.nextBoolean();
+        int c=scanner.nextInt();
         String res;
-        res=(a==b==c)? "all three are equal":"all are not equal";
+        String result;
+        result=(a==b||b==c||c==a)? "Any two are equal":"Any two are not equal";
+        res=(a==b&&b==c&&c==a)? "All three are equal":"All are not equal";
+
         System.out.println(res);
+        System.out.println(result);
     }
 }
