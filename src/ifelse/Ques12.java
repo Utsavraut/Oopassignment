@@ -15,7 +15,7 @@ public class Ques12 {
         } else if (month==4||month==6||month==9||month==11) {
             System.out.println("No. of Days: 30");
         } else if (month==2) {
-            if ((year % 4000 == 0) || ((year % 4 == 0) && (year % 100 != 0)))
+            if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0)))
                 System.out.println("No of days : 29");
             else {
                 System.out.println("No of days :28");
