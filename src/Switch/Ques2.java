@@ -1,6 +1,6 @@
 package Switch;
 
-/*import java.util.Scanner;
+import java.util.Scanner;
 
 //JAVA Program to find the maximum between two numbers. Using the switch statement.
 public class Ques2 {
@@ -11,17 +11,17 @@ public class Ques2 {
         System.out.println("Input Two Integer");
          int a=scanner.nextInt();
          int b=scanner.nextInt();
-        switch(a > b)
+         int max=(a>b)?0:1;
+        switch(max)
         {
             case 0:
-                System.out.println("maximum number " + b);
-                break;
-            case 1:
                 System.out.println("maximum number " + a);
                 break;
-            default:
-                System.out.println("Both are equal");
+            case 1:
+                System.out.println("maximum number " + b);
+                break;
+
         }
 
     }
-}*/
+}
